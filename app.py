@@ -8,6 +8,6 @@ def hello(): #The subroutine name that handles the call
 	output = 'Hello World'
 	return output #Whatever is returned from this subroutine is what is returned to the requester and is shown on the browser page
 
-if __name__ == '__main__':
-	port = int(os.environ.get('PORT', 8000)) #The port to be listening to — hence, the URL must be <hostname>:<port>/ inorder to send the request to this program
-	app.run(host='0.0.0.0', port=port)  #Start listening
+# if __name__ == '__main__':
+# 	port = int(os.environ.get('PORT', 8000)) #The port to be listening to — hence, the URL must be <hostname>:<port>/ inorder to send the request to this program
+# 	app.run(host='0.0.0.0', port=port)  #Start listening
